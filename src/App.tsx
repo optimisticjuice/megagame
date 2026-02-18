@@ -1,9 +1,7 @@
+import Megagame from './components/Megagame';
+
 function App() {
-  return (
-    <div>
-      <h1>Megagame</h1>
-    </div>
-  )
+  return <Megagame />;
 }
 
 export default App;
