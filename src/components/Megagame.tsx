@@ -1,7 +1,7 @@
-import { MemoryGame } from './MemoryGame';
+import { GameSlider } from './GameSlider';
 
-// Main Megagame component - now serves as a wrapper for the Memory Game
-// This demonstrates how to refactor from monolithic to modular architecture
+// Main Megagame component - now serves as the entry point for the Game Slider system
+// This demonstrates how to refactor from single game to multi-game navigation
 export default function Megagame() {
-  return <MemoryGame />;
+  return <GameSlider />;
 }
